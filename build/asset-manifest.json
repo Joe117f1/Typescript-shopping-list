@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Typescript-shopping-list/static/css/main.d051e399.chunk.css",
+    "main.js": "/Typescript-shopping-list/static/js/main.f0117529.chunk.js",
+    "main.js.map": "/Typescript-shopping-list/static/js/main.f0117529.chunk.js.map",
+    "runtime-main.js": "/Typescript-shopping-list/static/js/runtime-main.37a44dc4.js",
+    "runtime-main.js.map": "/Typescript-shopping-list/static/js/runtime-main.37a44dc4.js.map",
+    "static/js/2.a008b76b.chunk.js": "/Typescript-shopping-list/static/js/2.a008b76b.chunk.js",
+    "static/js/2.a008b76b.chunk.js.map": "/Typescript-shopping-list/static/js/2.a008b76b.chunk.js.map",
+    "index.html": "/Typescript-shopping-list/index.html",
+    "static/css/main.d051e399.chunk.css.map": "/Typescript-shopping-list/static/css/main.d051e399.chunk.css.map",
+    "static/js/2.a008b76b.chunk.js.LICENSE.txt": "/Typescript-shopping-list/static/js/2.a008b76b.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Typescript-shopping-list/static/media/groceries-cover.66aaaeb4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37a44dc4.js",
+    "static/js/2.a008b76b.chunk.js",
+    "static/css/main.d051e399.chunk.css",
+    "static/js/main.f0117529.chunk.js"
+  ]
+}

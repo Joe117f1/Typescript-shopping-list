@@ -6,6 +6,6 @@ class Item {
         this.id = new Date().toISOString();
         this.text = itemText;
     }
-};
+}
 
 export default Item;

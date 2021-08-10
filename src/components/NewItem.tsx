@@ -1,5 +1,4 @@
 import { useRef, useContext } from 'react';
-
 import { ItemsContext as itemsContext } from '../store/items-context';
 import classes from './NewItem.module.css';
 
@@ -21,10 +20,10 @@ const NewItem: React.FC = () => {
 
   return (
     <form className={classes.form} onSubmit={submitHandler}>
-      <label htmlFor="text">
+      <label htmlFor='text'>
         Enter new item or click on listed item to remove it
       </label>
-      <input type="text" id="text" ref={itemInputRef} />
+      <input type='text' id='text' ref={itemInputRef} />
       <button>Add Item</button>
     </form>
   );

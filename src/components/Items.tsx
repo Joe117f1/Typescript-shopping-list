@@ -9,7 +9,7 @@ const Todos: React.FC = () => {
 
   return (
     <ul className={classes.items}>
-      {todosCtx.items.map((item) => (
+      {todosCtx.items.map(item => (
         <ListItem
           key={item.id}
           text={item.text}

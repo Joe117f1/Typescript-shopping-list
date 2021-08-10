@@ -5,7 +5,7 @@ type ItemContextObj = {
   items: Item[];
   addItem: (item: string) => void;
   removeItem: (id: string) => void;
-};
+}
 
 export const ItemsContext = React.createContext<ItemContextObj>({
   items: [],
@@ -13,19 +13,19 @@ export const ItemsContext = React.createContext<ItemContextObj>({
   removeItem: (id: string) => {},
 });
 
-const ItemsContextProvider: React.FC = (props) => {
+const ItemsContextProvider: React.FC = props => {
   const [items, setItems] = useState<Item[]>([]);
 
   const addItemHandler = (item: string) => {
     const newItem = new Item(item);
-    setItems((prevItems) => {
+    setItems(prevItems => {
       return prevItems.concat(newItem);
     });
   };
 
   const removeItemHandler = (itemId: string) => {
-    setItems((prevItems) => {
-      return prevItems.filter((item) => item.id !== itemId);
+    setItems(prevItems => {
+      return prevItems.filter(item => item.id !== itemId);
     });
   };
 
